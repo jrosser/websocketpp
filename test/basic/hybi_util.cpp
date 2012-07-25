@@ -24,7 +24,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  * 
  */
-//#define BOOST_TEST_DYN_LINK
+#define BOOST_TEST_DYN_LINK
 #define BOOST_TEST_MODULE hybi_util
 #include <boost/test/unit_test.hpp>
 
