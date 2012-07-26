@@ -31,7 +31,7 @@
 #define BOOST_RNG_HPP
 
 #define __STDC_LIMIT_MACROS 1
-#include <stdint.h>
+#include <websocketpp-stdint.h>
 
 #include <boost/random.hpp>
 #include <boost/random/random_device.hpp>
