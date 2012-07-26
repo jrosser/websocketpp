@@ -57,6 +57,11 @@ AC_SUBST(WSPP_CFLAGS)
 WSPP_LIBS="\$(top_builddir)/src/libwebsocketpp-$WSPP_MAJORMINOR.la"
 AC_SUBST(WSPP_LIBS)
 
+AC_SUBST(WSPP_LIB_DEPS)
+AC_SUBST(WSPP_PKG_DEPS)
+
+pkgconfigdir="\$(libdir)/pkgconfig"
+AC_SUBST(pkgconfigdir)
 
 AC_CONFIG_FILES([Makefile
                    src/Makefile
@@ -74,5 +79,6 @@ AC_CONFIG_FILES([Makefile
 		   examples/stress_client/Makefile
 		   examples/telemetry_server/Makefile
 		   examples/wsperf/Makefile
+		   websocketpp.pc
 ])
 AC_OUTPUT

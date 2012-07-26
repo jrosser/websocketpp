@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@/websocketpp-@WSPP_MAJORMINOR@
+
+Name: websocketpp-@WSPP_MAJORMINOR@
+Description: C++ websockets
+Requires.Private: @WSPP_PKG_DEPS@
+Version: @VERSION@
+Libs: -L${libdir} -lwebsocketpp-@WSPP_MAJORMINOR@
+Libs.private: @WSPP_LIB_DEPS@
+Cflags: -I${includedir}
