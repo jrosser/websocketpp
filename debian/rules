@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+export DH_ALWAYS_EXCLUDE=*.la
+
+override_dh_shlibdeps:
+	dh_shlibdeps -- -v
+
+export DH_VERBOSE=1
+
+%:
+	dh $@

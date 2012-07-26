@@ -1,0 +1,5 @@
+websocketpp (0.2.0) precise; urgency=low
+
+  * Initial release
+
+ -- Jonathan Rosser <jonathan.rosser@rd.bbc.co.uk>  Thu, 26 Jul 2012 13:45:26 +0100
