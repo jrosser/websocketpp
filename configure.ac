@@ -29,7 +29,7 @@ AM_PROG_CC_C_O
 AC_CONFIG_SRCDIR([src/common.hpp])
 AC_CONFIG_HEADERS([config.h])
 
-AX_BOOST_BASE([1.42.0], HAVE_BOOST=yes, HAVE_BOOST=no)
+AX_BOOST_BASE([1.48.0], HAVE_BOOST=yes, HAVE_BOOST=no)
 if test "x${HAVE_BOOST}" != xyes ; then
   AC_MSG_ERROR(Boost library is required)
 fi
